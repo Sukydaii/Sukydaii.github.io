@@ -1,0 +1,64 @@
+html{
+    background-image: url("fondo2.jpg");
+    background-size: cover;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.titulazo3{
+    background-color: rgba(0, 0, 0, 0.603);
+    width: 96%;
+    height: 100px;
+    padding: 2%;
+    text-align: center; 
+}
+p{
+    width: 100%;
+    height: 50px;
+    padding: 1%;
+    text-align: center;
+    font-style: italic;
+}
+.partemedio{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.parteabajo2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.runadeltas{
+    background-color: rgba(26, 0, 35, 0.6);
+    width: 29%;
+    height: 310px;
+    padding: 2%;
+    text-align: center;
+}
+.nikolai{
+    background-color: rgba(26, 0, 35, 0.6);
+    width: 29%;
+    height: 310px;
+    padding: 2%;
+    text-align: center;
+}
+.bates{
+    background-color: rgba(26, 0, 35, 0.6);
+    width: 29%;
+    height: 310px;
+    padding: 2%;
+    text-align: center;
+}
+audio{
+    filter: invert(100%) hue-rotate(180deg) brightness(1.5);
+    width: 300px;
+    height: 60px;
+}
+img:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgb(0, 0, 0); 
+}
+img{
+    border: 10px solid black;
+}

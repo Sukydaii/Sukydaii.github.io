@@ -1,0 +1,57 @@
+html{
+    background-image: url(fondo2.jpg);
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+.titulazo2{
+    background-color: rgba(0, 0, 0, 0.603);
+    width: 96%;
+    height: 75px;
+    padding: 2%;
+    text-align: center; 
+}
+.portadas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.AA{
+    background-color: rgb(0, 0, 0);
+    width: 500px;
+    height: auto;
+    padding: 1%;
+    text-align: center;
+}
+.parteabajo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.Pasenormal{
+    background-color: rgba(26, 0, 35, 0.6);
+    width: 29%;
+    height: 310px;
+    padding: 2%;
+    text-align: center;
+}
+.Pasepremium{
+    background-color: rgba(26, 0, 35, 0.6);
+    width: 29%;
+    height: 310px;
+    padding: 2%;
+    text-align: center;
+}
+.Paseplatino{
+    background-color: rgba(26, 0, 35, 0.6);
+    width: 29%;
+    height: 310px;
+    padding: 2%;
+    text-align: center;    
+}
+img:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 10px 20px rgb(0, 0, 0); 
+}

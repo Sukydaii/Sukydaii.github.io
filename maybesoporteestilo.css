@@ -1,0 +1,53 @@
+html{
+    background-image: url(fondo2.jpg);
+    background-size: cover;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.titulazo5{
+    background-color: rgba(0, 0, 0, 0.603);
+    width: 96%;
+    height: 100px;
+    padding: 2%;
+    text-align: center;
+}
+.Gopa{
+    background-color: rgba(0, 0, 0, 0.801);
+    width: 30%;
+    height: 350px;
+    padding: 1%;
+    text-align: center;
+}
+.Cuse{
+    background-color: rgba(0, 0, 0, 0.801);
+    width: 30%;
+    height: 350px;
+    padding: 1%;
+    text-align: center;
+}
+.Pele{
+    background-color: rgba(0, 0, 0, 0.801);
+    width: 30%;
+    height: 350px;
+    padding: 1%;
+    text-align: center; 
+}
+.otrapartenmms{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.imagenrandom{
+    width: 200px;
+    height: auto;
+}
+.Pele:hover{
+    transform: scale(1.01);
+}
+.Gopa:hover{
+    transform: scale(1.01);
+}
+.Cuse:hover{
+    transform: scale(1.01);
+}
